@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tỏ tình siêu cute!</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="overlay hidden" id="overlay">
+      <div class="popup" id="popup">
+        <h2>Tên Crush là gì? 💖</h2>
+        <input type="text" id="crushName" placeholder="Nhập tên ở đây" />
+        <button id="startBtn">Gửi tớ!</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="typing-text" id="typingMsg">Tớ có điều muốn nói với cậu...</h1>
+      <div class="buttons">
+        <button id="yesBtn">Có 💘</button>
+        <button id="noBtn">Không 😢</button>
+      </div>
+    </div>
+
+    <canvas id="fireworksCanvas"></canvas>
+    <audio
+      id="bgMusic"
+      loop
+      src="https://www.bensound.com/bensound-music/bensound-lovely.mp3"
+    ></audio>
+
+    <script src="main.js"></script>
+  </body>
+</html>
